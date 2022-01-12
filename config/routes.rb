@@ -7,3 +7,13 @@ end
 
 
 
+#Rails.application.routes.draw do
+#get "/name_path",controller:"names",action:"name_A"
+
+#get "/guess_query" => "names#guess_query"
+
+#get "/segments_params/:wildcard/:another_variable" => "params_examples#segment_params"
+
+
+#end
+#:another_variable is example of dual parameter. 
