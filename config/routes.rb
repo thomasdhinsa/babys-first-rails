@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  # config/routes.rb
+#get "/welcome_path",controller:"welcomes",  action:"hello_method"
+#end
+get "/about_path",controller:"welcomes",action:"path_language"
 end
+
+
+
